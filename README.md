@@ -6,8 +6,8 @@
 
 # 사용 기술
 - spring(security, AOP, tx)
-- HTML5, CSS, JAVSCRIPT
-- JQUERY
+- HTML5, CSS3, JAVSCRIPT
+- JQUERY, AJAX
 - JSON
 
 # 사용한 핵심 기능
