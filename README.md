@@ -31,7 +31,7 @@
 3. 실력향상을 위해 라이브러리를 이용하지 않음 ex(페이징, 슬라이드 등등...)
 
 # DB 모델링 자료
-![DATAMODEL](DATAMODEL/MOVIEFLEX_MODEL.PNG)
+![DATAMODEL](../../DATAMODEL/MOVIEFLEX_MODEL.PNG)
 # 페이지 실행 화면
 > 메인
 
