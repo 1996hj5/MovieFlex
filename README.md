@@ -1,13 +1,16 @@
 # MovieFlex
 영화예매(만) 하는 사이트입니다. 종류는 영화예매, 영화목록이 있습니다.
 
+서버가 켜 있을 땐 http://미정 로 이동,
+
+서버가 닫혀 있을 땐 하단의 이미지를 이용 해주시기 바랍니다.
 # 프로젝트 기간
 > v.0.0.3 (2020.04.29)
 - 2020-02-28 ~ 2020-05-02 (약 2개월)
 - 이후 상시 업데이트중...
 
 # 사용 기술
-- spring(security, AOP, tx)
+- spring(core, context, security, AOP, tx, interceptor 등등..)
 - HTML5, CSS3, JAVSCRIPT
 - JQUERY, AJAX
 - JSON
@@ -46,16 +49,13 @@
   MOVIEFLEX
   │
   ├─src/main/java
-  │  │
   │  ├─com.reserved.Auth
-  │  │  │
   │  │  ├CustomAccessDeniedHandler
   │  │  ├CustomAuthenticationEntryPoint
   │  │  ├CustomAuthenticationFailHandler
   │  │  ├CustomAuthenticationProvider
   │  │  └CustomAuthenticationSuccessHandler
   │  ├─com.reserved.Controller
-  │  │  │
   │  │  ├ AuthEmailController
   │  │  ├ ErrorController
   │  │  ├ LoginController
@@ -65,7 +65,6 @@
   │  │  ├ ReservedController
   │  │  └ UserController
   │  ├─com.reserved.DAO
-  │  │  │
   │  │  ├ MovieDAO
   │  │  ├ MovieDAOImpl
   │  │  ├ ReservedDAO
@@ -76,7 +75,6 @@
   │  │  ├ UserDAO
   │  │  └ UserDAOImpl
   │  ├─com.reserved.DTO
-  │  │  │
   │  │  ├ ApiInfo
   │  │  ├ Criteria
   │  │  ├ EntryptInfo
@@ -86,10 +84,8 @@
   │  │  ├ TheaterInfo
   │  │  └ TicketInfo
   │  ├─com.reserved.interceptor
-  │  │  │
   │  │  └ CustomInterceptor
   │  ├─com.reserved.service
-  │  │  │
   │  │  ├ CustomUserDetailService
   │  │  ├ EmailService
   │  │  ├ MainService
@@ -97,19 +93,16 @@
   │  │  ├ ReservedService
   │  │  └ UserService
   │  └─com.reserved.utils
-  │     │
   │     ├ EncryptAES
   │     └ MessageUtils
   └─src/main/Resource
      │
      ├ config
-     │  │
      │  ├ encrypt-secret.properties
      │  ├ encrypt.xml
      │  ├ openapi.secret.propeties
      │  └ openapi.xml
      └─ mybatis
-        │
         ├ MovieDAO.xml
         ├ ReservedDAO.xml
         ├ TheaterDAO.xml
