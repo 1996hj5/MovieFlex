@@ -114,21 +114,21 @@
 ![DATAMODEL](/DATAMODEL/MOVIEFLEX_MODEL.png)
 # 페이지 실행 화면
 > 메인
-
+![메인](/ScreenView/MOVIEFLEX-메인.PNG)
 > 회원가입
-
+![회원가입](/ScreenView/MOVIEFLEX-회원가입.PNG)
 > 로그인
-
-> 아이디 찾기
-
-> 비밀번호 찾기
-
+![로그인](/ScreenView/MOVIEFLEX-로그인.PNG)
+> 계정 찾기
+![계정찾기](/ScreenView/MOVIEFLEX-계정찾기.PNG)
+> 마이페이지
+![계정찾기](/ScreenView/MOVIEFLEX-마이페이지.PNG)
 > 영화목록
-
+![영화1page](/ScreenView/MOVIEFLEX-영화1page.PNG)
 > 영화정보
-
+![영화디테일](/ScreenView/MOVIEFLEX-영화디테일.PNG)
 > 예매(step1)
-
+![예매1step](/ScreenView/MOVIEFLEX-예매1step.PNG)
 > 예매(step2)
-
+![예매2step](/ScreenView/MOVIEFLEX-예매2step.PNG)
 
